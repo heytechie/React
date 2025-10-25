@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+    font-family: Helvetica;
+}
+
+::selection {
+    color: coral;
+}
