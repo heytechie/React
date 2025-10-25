@@ -33,6 +33,7 @@ function TaskForm() {
             Create your task
           </h1>
           <input
+            required
             value={title}
             onChange={(e) => {
               setTitle(e.target.value);
@@ -41,6 +42,7 @@ function TaskForm() {
             placeholder="Write your task's title "
           />
           <textarea
+            required
             value={details}
             onChange={(e) => {
               setDetails(e.target.value);
