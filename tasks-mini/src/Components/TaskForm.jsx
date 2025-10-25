@@ -13,6 +13,7 @@ function TaskForm() {
     setIsOpen,
     openform,
     submitHandler,
+    color,
   ] = useContext(dataContext);
 
   const reset = () => {
@@ -52,6 +53,7 @@ function TaskForm() {
               Create Task
             </button>
             <button
+              type="button"
               onClick={reset}
               className="px-4 py-2 bg-zinc-500 text-zinc-200 rounded-3xl text-sm active:scale-90 cursor-pointer "
             >
